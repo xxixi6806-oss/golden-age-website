@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 900" width="1100" height="900">
+<defs>
+ <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#a8c4d4" stop-opacity=".48"/><stop offset=".14" stop-color="#fff" stop-opacity=".92"/><stop offset=".34" stop-color="#dceaf0" stop-opacity=".24"/><stop offset=".58" stop-color="#fff" stop-opacity=".86"/><stop offset=".82" stop-color="#b8ccd8" stop-opacity=".34"/><stop offset="1" stop-color="#fff" stop-opacity=".8"/></linearGradient>
+ <linearGradient id="cap" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#a9dfe0"/><stop offset=".35" stop-color="#21a9b0"/><stop offset="1" stop-color="#08717d"/></linearGradient>
+ <linearGradient id="capBlue" x1="0" x2="0" y2="1"><stop stop-color="#637aa5"/><stop offset=".4" stop-color="#173a70"/><stop offset="1" stop-color="#091e43"/></linearGradient>
+ <linearGradient id="capPurple" x1="0" x2="0" y2="1"><stop stop-color="#b9a2ef"/><stop offset=".4" stop-color="#7657bd"/><stop offset="1" stop-color="#49328c"/></linearGradient>
+ <linearGradient id="label" x1="0" x2="1"><stop stop-color="#f5fafb"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#e6eef2"/></linearGradient>
+ <filter id="shadow" x="-40%" y="-30%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+ <radialGradient id="powder"><stop stop-color="#fff"/><stop offset="1" stop-color="#dfe8ec"/></radialGradient>
+ <g id="vial">
+  <ellipse cx="90" cy="350" rx="79" ry="18" fill="#637f90" opacity=".2" filter="url(#shadow)"/>
+  <rect x="22" y="65" width="136" height="280" rx="24" fill="url(#glass)" stroke="#a9c1cc" stroke-width="3"/>
+  <rect x="31" y="75" width="118" height="262" rx="18" fill="none" stroke="#fff" stroke-width="5" opacity=".75"/>
+  <path d="M37 105 Q45 80 51 104 V298 Q46 321 37 301Z" fill="#fff" opacity=".62"/>
+  <path d="M140 103 Q132 86 128 108 V300 Q134 317 140 299Z" fill="#91aebc" opacity=".24"/>
+  <rect x="38" y="165" width="104" height="91" rx="3" fill="url(#label)" stroke="#d4e0e5" stroke-width="1.5"/>
+  <path d="M52 187 H128 M52 197 H118 M52 207 H125" stroke="#c8d7dd" stroke-width="2" opacity=".7"/>
+  <path d="M47 321 Q90 337 133 321" fill="none" stroke="#fff" stroke-width="5" opacity=".9"/>
+  <path d="M48 314 Q90 328 132 314" fill="none" stroke="#a5bbc5" stroke-width="2" opacity=".55"/>
+  <rect x="43" y="48" width="94" height="24" rx="5" fill="#d5e0e5" stroke="#a8bbc4" stroke-width="2"/>
+  <rect x="35" y="8" width="110" height="49" rx="12" fill="url(#cap)" stroke="#8eb9c1" stroke-width="2"/>
+  <path d="M44 17 Q90 5 136 17" fill="none" stroke="#fff" stroke-width="4" opacity=".55"/>
+  <path d="M39 48 H141" stroke="#064f5b" stroke-width="3" opacity=".35"/>
+  <ellipse cx="90" cy="315" rx="42" ry="10" fill="url(#powder)" opacity=".9"/>
+ </g>
+</defs>
+<g opacity=".18" fill="#fff"><circle cx="760" cy="175" r="170"/><circle cx="900" cy="500" r="230"/></g>
+<g transform="translate(85 440) scale(1.15)"><use href="#vial"/></g>
+<g transform="translate(350 430) scale(1.25)"><use href="#vial"/><rect x="35" y="8" width="110" height="49" rx="12" fill="url(#capBlue)"/></g>
+<g transform="translate(640 430) scale(1.25)"><use href="#vial"/><rect x="35" y="8" width="110" height="49" rx="12" fill="url(#capPurple)"/></g>
+<g transform="translate(235 90) scale(.95)"><use href="#vial"/><rect x="35" y="8" width="110" height="49" rx="12" fill="url(#capBlue)"/></g>
+<g transform="translate(510 80) scale(.95)"><use href="#vial"/><rect x="35" y="8" width="110" height="49" rx="12" fill="url(#capPurple)"/></g>
+<g transform="translate(790 90) scale(.95)"><use href="#vial"/></g>
+<path d="M0 820 Q300 790 550 825 T1100 810 V900 H0Z" fill="#fff" opacity=".45"/>
+</svg>
